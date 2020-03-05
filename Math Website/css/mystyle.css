@@ -1,0 +1,163 @@
+body{
+    margin-left: 250px;
+	margin-right: 250px;
+	margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #5d12e5;
+	transition: font-size 0.3s ease;
+	font-size: 18px;
+}
+
+a:hover {
+	font-size: 20px;
+	color: #b314db;
+	font-weight: bold;
+
+}
+
+#websiteTagline {
+    color: #861bbf;
+	font-size: 48px;
+	font-family: serif;
+	float: left;
+	margin-top: 20px;
+}
+
+
+#search {
+
+	background: linear-gradient(to top, #bbea5c, #def1ac);
+	width: 450px;
+	height: 80px;
+	float: left;
+    margin-left: 210px;
+}
+
+#searchButton {
+	border: 0;
+	height: 28px;
+	background-color: #a751d6;
+	color: white;
+	font-family: arial;
+	font-weight: bold;
+	margin-left: 65px;
+	position: relative;
+	top: 27px;
+}
+
+
+#navigation a{
+    
+	border-right: 1px solid #0000ff;
+	padding: 0px 20px;
+    line-height: 80px;
+}
+
+#navigation{
+    clear: both;
+    position: relative;
+    top: 20px;
+	background: linear-gradient(to top, #dbdb44, #f3f086);
+	height: 80px;
+	font-family: serif;
+}
+
+#contactUsLink 
+{
+    border-right-style: none;
+}
+
+#homeLink {
+    font-size: 20px;
+    font-weight: bold;
+    color: #b314db;
+    margin-left: 60px;
+}
+
+
+#motivation {
+    
+    background: linear-gradient(to top, #bbea5c, #def1ac);
+    position: relative;
+    top: 20px;
+    height: 300px;
+    text-align: justify;
+    font-family: serif;
+    padding-left: 30px;
+    padding-right: 20px;
+
+}
+
+#motivation h1{
+    color: #316901;
+    font-weight: normal;
+    font-size: 48px;
+    padding-top: 60px;
+}
+
+#motivation p{
+    color: #629f4a;
+    font-size: 24px;
+}
+
+#sidebars {
+    
+    position: relative;
+    top:40px;
+}
+
+#sidebar1 {
+    
+    height: 600px;
+    width: 490px;
+    float: left;
+    margin-right: 35px;
+    border: solid 1px #bbea5c;
+    border-radius: 20px;
+}
+
+#sidebar1 p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    font-size: 30px;
+    color: #a751d6;
+    font-weight: bold;
+}
+
+#sidebar2 {
+    
+    height: 600px;
+    width: 490px;
+    float: left; 
+    border: solid 1px #bbea5c;
+    border-radius: 20px;
+}
+
+#sidebar2 p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #a751d6;
+}
+
+#footer {
+    clear: both;
+    background: linear-gradient(to top, #dbdb44, #f3f086);
+    position: relative;
+    top: 60px;
+    height: 80px;
+    line-height: 80px;
+    padding-left: 30px;
+}
+
+#footer p{
+    font-family: serif;
+    font-size: 17px;
+}
